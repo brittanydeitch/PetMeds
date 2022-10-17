@@ -92,7 +92,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PetMeds.aspx" />
+    <Content Include="PlaceOrder.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -122,11 +122,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="PetMeds.aspx.designer.vb">
-      <DependentUpon>PetMeds.aspx</DependentUpon>
+    <Compile Include="PlaceOrder.aspx.designer.vb">
+      <DependentUpon>PlaceOrder.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PetMeds.aspx.vb">
-      <DependentUpon>PetMeds.aspx</DependentUpon>
+    <Compile Include="PlaceOrder.aspx.vb">
+      <DependentUpon>PlaceOrder.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
