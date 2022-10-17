@@ -94,6 +94,8 @@
   <ItemGroup>
     <Content Include="PlaceOrder.aspx" />
     <Content Include="Web.config" />
+    <Content Include="UpdateOrder.aspx" />
+    <Content Include="RequestOrder.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.Master.designer.vb">
@@ -127,6 +129,20 @@
     </Compile>
     <Compile Include="PlaceOrder.aspx.vb">
       <DependentUpon>PlaceOrder.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UpdateOrder.aspx.designer.vb">
+      <DependentUpon>UpdateOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateOrder.aspx.vb">
+      <DependentUpon>UpdateOrder.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="RequestOrder.aspx.designer.vb">
+      <DependentUpon>RequestOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RequestOrder.aspx.vb">
+      <DependentUpon>RequestOrder.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
